@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solitare Residential Park</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hide overlay_show"></div>
+    <div class="enquire-btn">
+      <button class="bg_dark_green dinmedium text-white"><span class="enquire_btn_text">Enquire Now</span></button>
+    </div>
+    <div class="enquire_now_form_show animation hide">
+      <div
+        class="
+          bg_dark_green
+          pt-md-5 pt-4
+          pb-4 pb-md-5
+          ps-md-4
+          pe-md-4 pe-4
+          ps-4
+          text-center
+        "
+      >
+        <div>
+          <div>
+            <h1 class="text-center pb-2 w-70 m-auto dinbold text-white mb-3">
+              Enquire Now
+            </h1>
+            <form action="" method="POST">
+              <div class="text-center mb-4">
+                <input
+                  type="text"
+                  placeholder="Name"
+                  required
+                  name="enquiryFullName"
+                  class="pt-md-2 pb-md-2 ps-md-2 ps-2 w-100"
+                />
+              </div>
+              <div class="text-center mb-4">
+                <input
+                  type="tel"
+                  name="enquiryPhoneNumber"
+                  required
+                  placeholder="Mobile No."
+                  class="pt-md-2 pb-md-2 ps-md-2 ps-2 w-100"
+                />
+              </div>
+              <div class="text-center mb-4">
+                <input
+                  type="email"
+                  name="enquiryEmail"
+                  placeholder="Email"
+                  class="pt-md-2 pb-md-2 ps-md-2 ps-2 w-100"
+                />
+              </div>
+              <div class="mb-2 mt-3 w-70 m-auto text-center">
+                <button
+                  type="submit"
+                  class="bg_light_green text-white pt-md-2 pb-md-2 pe-4 ps-4"
+                  style="box-shadow: 2px 1px 2px #fff"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="show_the_video"></div>
+    <div class="show_site_plan hide animation">
+      <img src="./images/site-plan/site-plan.png" alt="..." width="100%" class="sitePlanImage">
+    </div>
+    <div>
+      <nav id="navigation" class="pb-2">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+              <div class="solitare_logo mb-2">
+                <img src="./images/logo/solitare_park_logo.png" alt="..." />
+              </div>
+              <div class="mnone">
+                <ul class="d-flex list-unstyled mb-md-0 ms-md-5">
+                  <li class="dinmedium">
+                    <a href="#overview" class="text-decoration-none text-dark"
+                      >OVERVIEW</a
+                    >
+                  </li>
+                  <span class="ms-md-2">|</span>
+                  <li class="dinmedium ms-md-2">
+                    <a href="#amenities" class="text-decoration-none text-dark"
+                      >AMENITIES</a
+                    >
+                  </li>
+                  <span class="ms-md-2">|</span>
+                  <li class="dinmedium ms-md-2">
+                    <a
+                      href="#location_excellence"
+                      class="text-decoration-none text-dark"
+                    >
+                      LOCATION</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <div class="mnone me-3 dinmedium">
+                <a
+                href="tel: +91 8824 100 200"
+                class="text-decoration-none text-dark"
+                >
+                <i class="bi bi-telephone-fill nav_call_icon"></i>
+                  +91 8824 100 200
+                </a>
+              </div>
+              <div class="kgk_realty_logo">
+                <img src="./images/logo/KGK Realty Logo.png" alt="..." />
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div>
+          <div
+            id="banner"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            style="min-height: 300px"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#banner"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#banner"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#banner"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./images/banner/Banner-01.png"
+                  class="d-block w-100"
+                  alt="..."
+                  style="min-height: 300px"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/banner/Banner-02.png"
+                  class="d-block w-100"
+                  alt="..."
+                  style="min-height: 300px"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/banner/Banner-03.png"
+                  class="d-block w-100"
+                  alt="..."
+                  style="min-height: 300px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section id="overview" class="pt-3 pt-md-0">
+        <div>
+          <div class="d-flex flex-column flex-md-row ">
+            <div class="ps-md-5 pt-md-5 pe-md-5 col-md-6 pe-4 ps-4">
+              <h1 class="dinbold light_green ps-md-5 me-md-5 pe-md-5 text-md-start text-center">
+                OVERVIEW
+              </h1>
+              <p class="dinmedium pe-md-5 me-md-5 ps-md-5">
+                To make an integrated development in real sense, KGK Realty’s
+                Solitaire Park has an exclusive Residential Park where
+                residential township and gated community is being created with
+                separate entry and exit provisions. The aim is to provide global
+                living options to both locals and investors. Strategically
+                placed in the vicinity of Jaipur at a favorable industrial
+                location, the thoughtful development offers tremendous growth
+                potential with modern and smart support infrastructure.
+                Residential Park offers wide range of options to its dweller
+                like constructed houses, group housing, plots and apartments.
+              </p>
+              <p class="dinmedium light_green pe-md-5 me-md-5 ps-md-5">
+                Residential Plots starting from 150 Sq. Yd.
+              </p>
+              <section id="amenities">
+                <div class="container p-0">
+                  <div>
+                    <h1 class="dinbold light_green pt-3 mb-0 text-md-start text-center">AMENITIES</h1>
+                  </div>
+                  <div>
+                    <div
+                      id="amenities_slider"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-indicators amenities_indicators">
+                        <button
+                          type="button"
+                          data-bs-target="#amenities_slider"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#amenities_slider"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#amenities_slider"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active pb-3">
+                          <div class="d-flex justify-content-evenly w-100">
+                            <div class="text-center p-3">
+                              <img src="./images/amenities/Direction Signage.png" alt="..." class="amenities_img">
+                              <p class="text-center amenities_text">Direction Signages</p>
+                            </div>
+                            <div class="text-center p-3">
+                              <img src="./images/amenities/Double Sided Sewage.png" alt="..." class="amenities_img">
+                              <p class="text-center amenities_text">Double Sided Sewage & Septic Tank</p>
+                            </div>
+                            <div class="text-center p-3">
+                              <img src="./images/amenities/Fully Developed Township.png" alt="..." class="amenities_img">
+                              <p class="text-center amenities_text">Fully Developed Township</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item pb-3">
+                          <div class="d-flex justify-content-evenly w-100">
+                            <div class="text-center p-3">
+                              <img src="./images/amenities/Landscape.png" alt="..." class="amenities_img">
+                              <p class="text-center amenities_text">Peculiar Landscape</p>
+                            </div>
+                            <div class="text-center p-3">
+                              <img src="./images/amenities/Operational Electric Substation.png" alt="..." class="amenities_img">
+                              <p class="text-center amenities_text">Operational Electric Substation</p>
+                            </div>
+                            <div class="text-center p-3">
+                              <img src="./images/amenities/Rain Water Harvesting.png" alt="..." class="amenities_img">
+                              <p class="text-center amenities_text">Rain Water Harvesting System</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item pb-3">
+                          <div class="d-flex justify-content-evenly w-100">
+                            <div class="text-center p-3">
+                              <img src="./images/amenities/Secured Campus.png" alt="..." class="amenities_img">
+                              <p class="text-center amenities_text">Secured Campus</p>
+                            </div>
+                            <div class="text-center p-3">
+                              <img src="./images/amenities/Stormwater Drains.png" alt="..." class="amenities_img">
+                              <p class="text-center amenities_text">Stormwater Drains</p>
+                            </div>
+                            <div class="text-center p-3">
+                              <img src="./images/amenities/Water Supply.png" alt="..." class="amenities_img">
+                              <p class="text-center amenities_text">Domestic Use Water Supply</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-6 overview_image">
+              <div class="dnone">
+                <img src="./images/overview/Overview.png" alt="..." class="" />
+              </div> 
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="location_excellence" class="pt-3 pb-3">
+        <div class="container">
+          <h1 class="dinbold light_green text-center">LOCATION EXCELLENCE</h1>
+          <div class="d-flex flex-md-row flex-column">
+            <div class="col-md-8 map">
+              <img src="./images/location excellence/Location.png" alt="..." />
+            </div>
+            <div class="col-md-4 mt-2 mt-md-0">
+              <div
+                class="
+                  d-flex
+                  mb-md-5
+                  flex-row flex-md-column
+                  align-items-md-end align-items-center
+                  justify-content-around
+                "
+              >
+                <img
+                  src="./images/location excellence/Site-Plan.png"
+                  alt="..."
+                  class="site_plan_viewer"
+                />
+                <img
+                  src="./images/location excellence/Walkthrough.png"
+                  alt="..."
+                  class="video_viewer mt-2"
+                />
+              </div>
+              <div
+                class="
+                  mt-3
+                  mt-md-5
+                  pt-md-5
+                  d-flex
+                  justify-content-md-end justify-content-center
+                "
+              >
+                <table class="text-center">
+                  <tr>
+                    <th colspan="3" class="dinbold p-1">
+                      King Distances from Solitaire Industrial Park
+                    </th>
+                  </tr>
+                  <tr>
+                    <td class="dinlight text-start p-1">
+                      Residential township
+                    </td>
+                    <td class="dinbold p-1">3-5 KMS.</td>
+                  </tr>
+                  <tr>
+                    <td class="dinlight text-start p-1">
+                      Sikkim Manipal University
+                    </td>
+                    <td class="dinbold p-1">3-5KMS.</td>
+                  </tr>
+                  <tr>
+                    <td class="dinlight text-start p-1">Delhi Public School</td>
+                    <td class="dinbold p-1">7 KMS.</td>
+                  </tr>
+                  <tr>
+                    <td class="dinlight text-start p-1">Mahindra SEZ</td>
+                    <td class="dinbold p-1">5 KMS.</td>
+                  </tr>
+                  <tr>
+                    <td class="dinlight text-start p-1">
+                      Mansarovar Metro Station
+                    </td>
+                    <td class="dinbold p-1">12 KMS.</td>
+                  </tr>
+                  <tr>
+                    <td class="dinlight text-start p-1">
+                      International Airport
+                    </td>
+                    <td class="dinbold p-1">25 KMS.</td>
+                  </tr>
+                  <tr>
+                    <td class="dinlight text-start p-1">Kishangrah</td>
+                    <td class="dinbold p-1">70 KMS.</td>
+                  </tr>
+                  <tr>
+                    <td class="dinlight text-start p-1">Ajmer</td>
+                    <td class="dinbold p-1">100 KMS.</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="site_update" class="p-md-4 pb-2 pt-4">
+        <div class="container p-0">
+          <div>
+            <h1 class="light_green text-center dinbold text-uppercase">Delivered as committed</h1>
+          </div>
+          <div
+            id="site_update_slider"
+            class="carousel slide dnone"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#site_update_slider"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#site_update_slider"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#site_update_slider"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner p-4 pt-3">
+              <div class="carousel-item active">
+                <img
+                  src="./images/site-update/siteUpdate1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                  style="border: 4px solid #2cbdb5"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/site-update/siteUpdate2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                  style="border: 4px solid #2cbdb5"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/site-update/siteUpdate3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                  style="border: 4px solid #2cbdb5"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="site_image_container hide">
+            <i class="bi bi-arrow-left-circle-fill"></i>
+            <img src="" alt="...." class="site_update_image">
+            <i class="bi bi-arrow-right-circle-fill"></i>
+          </div>
+          <div class="mnone">
+            <div class="d-flex">
+              <div class="col-4 p-4">
+                <img
+                  src="./images/site-update/siteUpdate1.jpg"
+                  alt="..."
+                  class="w-100 site_image"
+                />
+              </div>
+              <div class="col-4 p-4">
+                <img
+                  src="./images/site-update/siteUpdate2.jpg"
+                  alt="..."
+                  class="w-100 site_image"
+                />
+              </div>
+              <div class="col-4 p-4">
+                <img
+                  src="./images/site-update/siteUpdate3.jpg"
+                  alt="..."
+                  class="w-100 site_image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="book_a_site">
+        <div class="container pe-0 ps-0">
+          <div class="d-flex flex-column flex-md-row justify-content-end  pt-5
+          pb-5
+          pt-md-0
+          pb-md-0">
+            <div
+              class="
+                col-md-7
+                mt-md-5
+                mb-md-5
+                d-md-flex
+                align-items-md-center
+                justify-content-md-center
+                book_a_site_bg
+                "
+            >
+              <div class="w-100 pt-3 pb-3 ps-3 pe-3">
+                <div class="book_a_site_form">
+                  <h1
+                    class="
+                      text-center
+                      pb-2
+                      w-70
+                      mt-md-5
+                      m-auto
+                      dinbold
+                      text-white
+                      mb-md-5
+                      mt-3
+                      mb-3
+                    "
+                  >
+                    Book A Site Visit
+                  </h1>
+                  <form action="" method="POST">
+                    <div class="mb-3 text-center mb-md-5">
+                      <input
+                        type="text"
+                        placeholder="Name"
+                        name="visitFullName"
+                        required
+                        class="ps-md-2 ps-2"
+                      />
+                    </div>
+                    <div class="mb-3 text-center mb-md-5">
+                      <input
+                        type="tel"
+                        name="visitPhoneNumber"
+                        placeholder="Mobile No."
+                        required
+                        class="ps-md-2 ps-2"
+                      />
+                    </div>
+                    <div class="mb-3 text-center mb-md-5">
+                      <input
+                        type="email"
+                        placeholder="Email"
+                        name="visitEmail"
+                        class="ps-md-2 ps-2"
+                      />
+                    </div>
+                    <div
+                      class="mb-md-4 mt-3 m-auto text-center"
+                    >
+                      <button
+                        type="submit"
+                        class="
+                          bg_dark_green
+                          text-white
+                          pe-4
+                          ps-4
+                          mb-3
+                        "
+                        style="box-shadow: 2px 1px 2px #fff"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="footer" class="pt-md-5 pb-md-5 pb-5 pt-3">
+        <div class="container">
+          <div class="d-md-flex justify-content-md-between">
+            <div class="text-white col-md-4">
+              <p class="text-center dinbold mb-1 text-md-start">Jaipur</p>
+              <p class="text-center dinlight text-md-start">
+                Near Entertainment Paradise,<br />Jawahar Circle, JLN Marg,
+                Jaipur - 302017
+              </p>
+              <div class="text-center text-white text-md-start">
+                <a
+                  href="tel: 0141-2720557"
+                  class="text-decoration-none text-white dinlight"
+                  ><i class="bi bi-telephone-fill me-1"></i>0141-2720557</a
+                ><br />
+                <a
+                  href="tel: +91 8824 100 200"
+                  class="text-decoration-none text-white dinlight"
+                  ><i class="bi bi-phone-fill me-1"></i>+91 8824 100 200</a
+                ><br />
+                <a
+                  href="mailto:sales@kgkrealty.com"
+                  class="text-decoration-none text-white dinlight"
+                  ><i class="bi bi-envelope-fill me-1"></i
+                  >sales@kgkrealty.com</a
+                >
+              </div>
+            </div>
+            <div class="text-center text-md-start col-md-4">
+              <p class="text-white dinlight">Follow us on</p>
+              <div>
+                <a
+                  href="https://www.facebook.com/kgkrealty/"
+                  class="text-decoration-none text-white me-1"
+                  ><i class="bi bi-facebook fs-2"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/kgk_realty/?hl=en"
+                  class="text-decoration-none text-white me-1"
+                  ><i class="bi bi-instagram fs-2 me-1"></i
+                ></a>
+                <a
+                  href="https://in.linkedin.com/company/kgk-realty"
+                  class="text-decoration-none text-white me-1"
+                  ><i class="bi bi-linkedin fs-2 me-1"></i
+                ></a>
+                <a
+                  href="https://twitter.com/kgkrealty"
+                  class="text-decoration-none text-white"
+                  ><i class="bi bi-twitter fs-2 me-1"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <p class="text-white text-center dinlight text-md-start">
+                <a
+                  href="https://www.kgkrealty.com/privacy-policy/"
+                  class="text-decoration-none text-white dinlight"
+                >
+                  Privacy Policy & Disclaimer
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="text-center text-white dinlight mt-md-5">
+            © 2021 KGK Realty. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
